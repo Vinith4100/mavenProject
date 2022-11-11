@@ -29,8 +29,8 @@ public class Account {
 		
 	}
 	
-	public Account(Long id, String name,Long accno, Long balance) {
-		this.id = id;
+	public Account(String name,Long accno, Long balance) {
+		
 		this.name = name;
 		this.setAccno(accno);
 		this.balance = balance;
